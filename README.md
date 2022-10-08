@@ -6,7 +6,7 @@ A new pharmaceutical startup is recently acquired by one of the world's largest 
 
 Your task is to make a sophisticated NLP-based Machine Learning model that has the mentioned features as the input. Also, use the input to predict the base score of a certain drug in a provided case.
 
-#### Data
+### Data
 The dataset has the following columns:
 
 * Variable Name	Description
@@ -19,7 +19,7 @@ The dataset has the following columns:
 * effectiveness_rating	Effectiveness of drug
 * base_score	Generated score (Target Variable)
 
-#### Data description
+### Data description
 The data folder consists of the following two .csv files:
 
 * train.csv - (32165x 7)
@@ -33,7 +33,7 @@ patient_id,base_score
 92703,5.26
 138000,8.03
 
-#### Evaluation metric
+### Evaluation metric
 
 ###  score = 100 * max(0,1 - RMSE(actual_values,predicted_values))
 
